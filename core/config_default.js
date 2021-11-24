@@ -270,6 +270,11 @@ module.exports = () => {
                 //  to export message confs/areas
                 //
             },
+            gemini : {
+                enabled : false,
+                port : 1965,
+                publicHostname : 'another-fine-engima-bbs.org',
+            }
 
             nntp : {
                 //  internal caching of groups, message lists, etc.
